@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/ionic/js/angular-ui/angular-ui-router.js"></script>
+
+    cordova script (this will be a 404 during development)
+    <!--   <script src="cordova.js"></script>
+   -->
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/myController.js"></script>
+    <script src="js/factory.js"></script>
+</head>
+<body ng-app="starter" ng-controller="watch">
+
+<ion-nav-bar class="nav-title-slide bar-royal">
+    <ion-nav-back-button class="button-icon ion-arrow-left-c button back-button">
+    </ion-nav-back-button>
+</ion-nav-bar>
+<ion-nav-view class="col-offset-10 col-80 col-offset-10 responsive-sm .responsive-md .responsive-lg"></ion-nav-view>
+</body>
+</html>

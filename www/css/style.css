@@ -1,0 +1,26 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.fontSize{
+    font-size: 3.0em;
+
+
+}
+.margin{
+    margin-left:25%;
+}
+.marginTop{
+    margin-top:25%;
+}
+.text-Align{
+    text-align: center;
+}
+.paddingTop{
+    padding-top: 2cm;
+
+}
+label{
+    text-align: center;
+}

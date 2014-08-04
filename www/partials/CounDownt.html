@@ -1,0 +1,12 @@
+<ion-view title="{{appName}}">
+    <ion-content has-header="true">
+        <label class="item item-input item-stacked-label">
+            <span ng-show="showTime"class="input-label fontSize " ng-bind="duration.minutes+':'+duration.seconds"></span>
+        </label>
+        <form>
+            <button class="button button-block button-positive ion-play" value="Start stopwatch" ng-click="addStart()"></button>
+            <button class="button button-block button-positive ion-refresh" value="reset" ng-click="reset()"></button>
+            <button class="button button-block button-positive ion-pause" value="reset" ng-click="stop()"></button>
+        </form>
+    </ion-content>
+</ion-view>
